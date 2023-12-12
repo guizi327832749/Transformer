@@ -8,10 +8,10 @@
 
 Dialog.create("OOC-PIE Transformers");
 //create Radiobuttons select input image type
-inputImageTpyeList = newArray("__________raw__________","__________png__________","__________bmp__________");
+inputImageTypeList = newArray("__________raw__________","__________png__________","__________bmp__________");
 
 Dialog.setInsets(100, 0, 0)
-Dialog.addRadioButtonGroup("Input_image_type:",inputImageTpyeList,1,3,inputImageTpyeList[0])
+Dialog.addRadioButtonGroup("Input_image_type:",inputImageTypeList,1,3,inputImageTypeList[0])
 Dialog.setInsets(10, 0, 0) 
 rawList = newArray("8-bit","16-bit Signed","16-bit Unsigned")
 Dialog.addChoice("rawBits:",rawList,rawList[2])
